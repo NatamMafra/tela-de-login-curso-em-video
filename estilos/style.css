@@ -31,8 +31,8 @@ main {
 
 section#login {
     background-color: white;
-    width: 250px;
-    height:500px;
+    width: 300px;
+    height:600px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.552);
@@ -59,4 +59,8 @@ section#login > div#formulario {
 
 section#login > div#formulario > h1 {
     text-align: center;
+}
+
+section#login > div#formulario > p {
+    font-size: 0.9em;
 }
