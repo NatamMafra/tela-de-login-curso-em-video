@@ -76,10 +76,13 @@ form div.campo {
     height: 40px;
     display: flex;
     align-items: center;
+    outline: none;
 
 }
 
-
+form div.campo > span{
+    color: white;
+}
 
 form div.campo > input {
     width: 80%;
@@ -93,7 +96,7 @@ form div.campo > label {
 }
 
 
-form > input[type=submit] {
+form div> input[type=submit] {
     display: block;
     text-align: center;
     width: 100%;
@@ -108,12 +111,12 @@ form > input[type=submit] {
     cursor: pointer;
 }
 
-form > input[type=submit]:hover {
+form div > input[type=submit]:hover {
     background-color: #285755;
 
 }
 
-form > a.botao {
+form div > a.botao {
     display: block;
     width: 100%;
     height: 40px;
@@ -133,6 +136,6 @@ form > a.botao {
     margin-top: 5px;
 }
 
-form > a.botao:hover {
+form div> a.botao:hover {
     background-color: #285755;    
 }
